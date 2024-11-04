@@ -1,5 +1,7 @@
-[test.build]
+[test]
+description = "test"
+authors = ["test"]
 output = "test.so"
-steps = [
+build = [
     "make all",
 ]
