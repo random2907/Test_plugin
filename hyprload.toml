@@ -1,0 +1,5 @@
+[test.build]
+output = "test.so"
+steps = [
+    "make all",
+]
